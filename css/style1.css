@@ -1,0 +1,407 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.block{
+    width: 100%;
+    height: 35px;
+    background-color: #65256F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text1{ 
+    text-align: center;
+    color: #FFB700;
+    margin-left:90px;
+    font-family: Gilroy;
+    font-style: normal;
+}
+
+.right-block{
+    color: #fff;
+    margin-right: 80px;
+    font-family: Gilroy ;
+    font-style: normal;
+}
+
+.lol{
+    color: #FFB700;
+    margin-left: 30px;
+}
+
+.block2{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+   margin-right: 70px;
+   justify-content: space-between;
+   list-style-type:none;
+   font-family: Gilroy;
+   font-style: normal;
+}
+
+.photo{
+    margin-left: 85px;
+}
+
+.cnock{
+    width: 160px;
+    background-color: #65256F;
+    color: #fff;
+}
+
+.block3{
+    width: 100%;
+    height: 100vh;
+    background: url("../Rectangle\ 70.png") 0 0/ cover no-repeat;
+    position: relative;
+ 
+}
+
+.icon{
+    display: flex;
+    z-index: 5;
+    flex-direction: column;
+    width: 50px;
+    margin-top: 300px;
+    margin-left: 85%;
+    padding-bottom: 200px;
+    
+}
+
+.icon1{
+    margin-top:-200%;
+}
+
+.icon2{
+    margin-top: 90%;
+}
+
+.icon3{
+    margin-top: 90%;
+}
+
+.bg-fone{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color:rgba(0,0,0,0.5);
+    
+}
+
+
+
+.text2{
+    position: absolute;
+    color: #fff;
+    padding-left: 140px;
+    padding-top: 140px;
+    font-size: 50px;
+    font-family:Gilroy ;
+    z-index: 3;
+}
+
+.text3{
+position: absolute;
+color: #fff;
+padding-top: 290px;
+padding-left: 140px;
+font-size: 28px;
+font-family:Gilroy ;
+z-index: 3;
+}
+
+.cnock2{
+    position: absolute;
+    padding-left: 140px;
+    padding-top:390px ;
+    color: #fff;
+    font-size: 30px;
+    width: 900px;
+    height: 800px;
+    z-index: 3;
+}
+
+.cnock3{
+    width: 200px;
+    height: 50px;
+    background-color: #FFC957;
+}
+
+.line{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-family:Gilroy ;
+    /* font-style: ; */
+}
+
+.line::before {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.line::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+} 
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.line2{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-family:Gilroy ;
+}
+
+.line2::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+} 
+
+    .line2::before {
+        content: "";
+        width: 40%;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+
+    .conteiner1{
+        display: flex;
+        
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+    }
+
+    .work1{
+        position: relative;
+        flex: 0 1 30%;
+        margin: 0 0 30px 0;
+    }
+    .work1 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .work-fon{
+        position:absolute;
+        background-color: rgba(0,0,0,0.5);
+        width:100%;
+        height: 100%;
+    }
+   
+.text4{
+    position: absolute;
+    bottom: 5%;
+    font-family:Gilroy ;
+    font-size: 25px;
+    left: 20px;
+    color: #fff;
+}
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cnock4{
+    width: 430px;
+    height: 35px;
+    background-color: #65256F;
+    color: #fff;
+    margin: auto;
+    font-family: Gilroy;
+}
+
+
+ .text5{
+ font-family: Gilroy;
+ /* text-align: center; */
+ /* width: 50px; */
+ height: 50px;
+ font-size: 20px;
+ margin-top: -0.9px;
+ }
+
+ .line3{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-family:Gilroy ;
+}
+
+.line3::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+} 
+
+    .line3::before {
+        content: "";
+        width: 40%;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+
+    
+
+    .card{
+        width: 100%;
+     position: relative;
+     flex: 0 1 30%;
+    }
+
+.line4{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    font-family:Gilroy ;
+}
+
+.line4::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 50%;
+} 
+
+    .line4::before {
+        content: "";
+        width: 40%;
+        height: 2px;
+        background: #000;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+
+
+    .conteiner1{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 90px;
+        
+    }
+
+
+    .paint{
+    color: #65256F;
+    }
+
+    .line4{
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+        font-family:Gilroy ;
+    }
+
+
+    .tab{
+        font-size: 25px;
+        font-family: Gilroy;
+    }
+
+
+    .text6{
+        margin-top: 70px;
+        text-align: center;
+        font-size: 25px;
+        font-family: Gilroy;
+    }
+
+.cnock55{
+display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+}
+
+
+    .cnock5{
+        background-color: #ECE8E8;
+        width: 300px;
+        height: 30px;
+    }
+
+    .cnock50{
+width: 210px;
+height: 30px;
+background-color: #65256F;
+color: #fff;
+    }
+
+    .block-end{
+        width: 100%;
+        height:300px ;
+        background-color: #3A3A3A;
+        margin-top: 90px;
+    }
+
+    .end{
+        width: 100%;
+        height:300px ;
+        background-color: #3A3A3A;
+        color: #fff;
+        margin-top: 90px;
+        padding-top: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        /* font-size: 20px; */
+        font-family: Gilroy;
+    }
+
+    .end1{
+ text-align: start;
+    }
